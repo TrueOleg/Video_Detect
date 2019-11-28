@@ -1,0 +1,5 @@
+flask-server/**.avi
+flask-server/**.mp4
+flask-server/**.h5
+flask-server/static/**.avi
+flask-server/static/**.mp4

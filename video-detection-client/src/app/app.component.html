@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>Upload file</h1>
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+  <input type="file" (change)="onFileChange($event)" />
+  <input type="submit" [disabled]="formGroup.invalid" value="upload" />
+</form>
+<video width="720" controls>
+  <source src="http://localhost:5000/static/converted.mp4" type="video/mp4">
+</video>
+
+<router-outlet></router-outlet>
